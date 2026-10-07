@@ -18,7 +18,7 @@ export function Logo({ onDark = false, className = "" }: { onDark?: boolean; cla
         width={40}
         height={32}
         unoptimized
-        loading={onDark ? "lazy" : "eager"}
+        loading="eager"
         className="shrink-0"
       />
       <span className="flex flex-col whitespace-nowrap">
